@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "703547354908",
+    "project_id": "whatsapp-clone-flutterfire",
+    "storage_bucket": "whatsapp-clone-flutterfire.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703547354908:android:9a3a0fe8f65270a41114d9",
+        "android_client_info": {
+          "package_name": "me.tusharchavan.whatsapp_messenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703547354908-hlfs4iirubb2nqlb76qhbo0g9olvk3hb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsPqnHwFaXnVmnKUkG5ckXuru0PQl3NRo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703547354908-hlfs4iirubb2nqlb76qhbo0g9olvk3hb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
