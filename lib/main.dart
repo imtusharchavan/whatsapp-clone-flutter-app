@@ -1,7 +1,9 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
+import 'package:whatsapp_messenger/common/routes/routes.dart';
 import 'package:whatsapp_messenger/common/theme/dark_theme.dart';
 import 'package:whatsapp_messenger/common/theme/light_theme.dart';
-import 'package:whatsapp_messenger/feature/auth/pages/user_info_page.dart';
+import 'package:whatsapp_messenger/feature/welcome/pages/welcome_page.dart';
 
 
 void main() {
@@ -20,7 +22,8 @@ class MyApp extends StatelessWidget {
       theme: lightTheme(),
       darkTheme: darkTheme(),
       themeMode: ThemeMode.system,
-      home: const UserInfoPage(),
+      home: const WelcomePage(),
+      onGenerateRoute: Routes.onGenerateRoute,
     );
   }
 }

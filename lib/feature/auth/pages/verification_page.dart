@@ -1,12 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 import 'package:whatsapp_messenger/common/extension/custom_theme_extension.dart';
 import 'package:whatsapp_messenger/common/widgets/custom_icon_button.dart';
 import 'package:whatsapp_messenger/feature/auth/widgets/custom_text_field.dart';
 
 class VerificationPage extends StatefulWidget {
-  const VerificationPage({super.key});
+  const VerificationPage({
+    super.key,
+    required this.verificationId,
+    required this.phoneNumber,
+  });
+  final String verificationId;
+  final String phoneNumber;
 
   @override
   State<VerificationPage> createState() => _VerificationPageState();
@@ -35,9 +39,7 @@ class _VerificationPageState extends State<VerificationPage> {
         elevation: 0,
         title: Text(
           'Verify your number',
-          style: TextStyle(
-            color: context.theme.authAppBarTextColor
-          ),
+          style: TextStyle(color: context.theme.authAppBarTextColor),
         ),
         centerTitle: true,
         actions: [

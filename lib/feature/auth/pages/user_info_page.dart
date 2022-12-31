@@ -31,7 +31,7 @@ class _UserInfoPageState extends State<UserInfoPage> {
         child: Column(
           children: [
             Text(
-              'Please provide your name and an option profile photo',
+              'Please provide your name and an optional profile photo',
               textAlign: TextAlign.center,
               style: TextStyle(color: context.theme.greyColor),
             ),
