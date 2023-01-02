@@ -47,9 +47,9 @@ class _LoginPageState extends ConsumerState<LoginPage> {
 
     // request a verification code
     ref.read(authControllerProvider).sendSmsCode(
-          context: context,
-          phoneNumber: '+$countryCode$phoneNumber',
-        );
+      context: context,
+      phoneNumber: '+$countryCode$phoneNumber',
+    );
   }
 
   showCountryCodePicker() {
